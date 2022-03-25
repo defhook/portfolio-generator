@@ -5,11 +5,11 @@ const profileDataArgs = process.argv.slice(2);
 
 console.log(profileDataArgs);
 
-const [jack, github] = profileDataArgs;
+const [name, github] = profileDataArgs;
 
-console.log(jack, github);
+console.log(name, github);
 
-const pageHTML = generatePage(jack, github);
+const pageHTML = generatePage(name, github);
 
     
 /*const printProfileData = profileDataArr => {
